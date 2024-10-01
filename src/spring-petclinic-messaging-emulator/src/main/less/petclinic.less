@@ -227,18 +227,19 @@ table td.action-column {
   animation-timing-function: linear;
 
   -webkit-transform-origin: 49% 50%;
+  transform-origin: 49% 50%;
   -webkit-animation-name: spinner;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
 
-@keyframes "spinner" {
+@keyframes spinner {
   from { transform: rotate( 0deg );   }
   to   { transform: rotate( 360deg ); }
 }
 
-@-webkit-keyframes "spinner" {
+@-webkit-keyframes spinner {
   from { -webkit-transform: rotate( 0deg ); }
   to   { -webkit-transform: rotate( 360deg ); }
 }

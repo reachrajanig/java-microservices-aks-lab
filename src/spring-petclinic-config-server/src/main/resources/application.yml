@@ -6,7 +6,7 @@ spring:
         git:
           uri: https://github.com/reachrajanig/spring-petclinic-microservices-config
           username: reachrajanig
-          password: ${{ secrets.petclinicconfigpat }}
+          password: ${GIT_PAT}
           default-label: main
         # Use the File System Backend to avoid git pulling. Enable "native" profile in the Config Server.
         native:
